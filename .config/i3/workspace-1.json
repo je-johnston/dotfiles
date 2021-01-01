@@ -1,0 +1,120 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1421,
+       "width": 1024,
+       "x": 3072,
+       "y": 0
+    },
+    "marks": [],
+    "name": "i3 4.8 introduces layout saving and restoring : archlinux - Google Chrome",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^Google\\-chrome$",
+       // "instance": "^google\\-chrome$",
+       // "title": "^i3\\ 4\\.8\\ introduces\\ layout\\ saving\\ and\\ restoring\\ \\:\\ archlinux\\ \\-\\ Google\\ Chrome$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1370,
+       "width": 1245,
+       "x": 25,
+       "y": 25
+    },
+    "marks": [],
+    "name": "● config - i3 - Visual Studio Code",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^Code$",
+       // "instance": "^code$",
+       // "title": "^\\●\\ config\\ \\-\\ i3\\ \\-\\ Visual\\ Studio\\ Code$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1370,
+       "width": 834,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "/home/jamesj/.config/i3 - File Manager",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^Thunar$",
+       // "instance": "^thunar$",
+       // "title": "^\\/home\\/jamesj\\/\\.config\\/i3\\ \\-\\ File\\ Manager$",
+       // "window_role": "^Thunar\\-1606898358\\-419934918$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 570,
+       "width": 810,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "jamesj@james-linux:~",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^URxvt$",
+       // "instance": "^urxvt$",
+       // "title": "^jamesj\\@james\\-linux\\:\\~$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1370,
+       "width": 1687,
+       "x": 1716,
+       "y": 25
+    },
+    "marks": [],
+    "name": "#general - Discord",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^discord$",
+       // "instance": "^discord$",
+       // "title": "^\\#general\\ \\-\\ Discord$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+

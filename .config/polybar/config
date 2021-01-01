@@ -1,0 +1,148 @@
+[bar/left-bar]
+bottom = true
+monitor = HDMI-LEFT
+modules-center = i3
+
+[bar/center-bar]
+bottom = true
+monitor = HDMI-CENTER
+modules-center = i3
+
+tray-maxsize = 26
+;tray-offset-x = 0
+tray-offset-y = -5
+tray-position = right
+;tray-scale = 1.5
+
+[bar/right-bar]
+bottom = true
+monitor = HDMI-RIGHT
+modules-center = i3
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+
+
+
+
+
+
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
+; If not, uses default sink
+; sink = alsa_output.pci-0000_12_00.3.analog-stereo
+
+; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
+; Default: true
+use-ui-max = true
+
+; Interval for volume increase/decrease (in percent points)
+; Default: 5
+interval = 5
+
+; Available tags:
+;   <label-volume> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-volume = <ramp-volume> <label-volume>
+
+; Available tags:
+;   <label-muted> (default)
+;   <ramp-volume>
+;   <bar-volume>
+;format-muted = <label-muted>
+
+; Available tokens:
+;   %percentage% (default)
+;   %decibels%
+;label-volume = %percentage%%
+
+; Available tokens:
+;   %percentage% (default)
+;   %decibels%
+label-muted = 🔇 muted
+label-muted-foreground = #666
+
+; Only applies if <ramp-volume> is used
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
+; Right and Middle click
+click-right = pavucontrol
+; click-middle = 
+
+
+[module/i3]
+type = internal/i3
+pin-workspaces = true
+ws-icon-0 = 1;asdf
+ws-icon-1 = 2;asdf
+ws-icon-2 = 3;
+ws-icon-3 = 4;dd
+ws-icon-4 = 5;dd
+ws-icon-default = dd
+
+
+; Available tokens:
+;   %mode%
+; Default: %mode%
+label-mode = %mode%
+label-mode-padding = 2
+label-mode-background = #e60053
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon%  %name%
+label-focused = %name%
+label-focused-foreground = #ffffff
+label-focused-background = #3f3f3f
+label-focused-underline = #fba922
+label-focused-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon%  %name%
+label-unfocused = %name%
+label-unfocused-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon%  %name%
+label-visible = %index%
+label-visible-underline = #555555
+label-visible-padding = 4
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon%  %name%
+label-urgent = %index%
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-padding = 4
+
+; Separator in between workspaces
+label-separator = |
+label-separator-padding = 2
+label-separator-foreground = #ffb52a
+
+; Fonts
+font-0 = Inconsolata:size=18;1
+font-1 = unifont:fontformat=truetype:size=14:antialias=false;0
+font-2 = FontAwesome:style=Regular:pixelsize=17
